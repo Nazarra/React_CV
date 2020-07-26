@@ -1,0 +1,125 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+.contact_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 140px;
+  h2 {
+    margin-top: 50px;
+    font-size: 60px;
+    align-self: center;
+    font-family: $mainFont;
+  }
+
+  .contact_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 620px;
+
+    box-sizing: border-box;
+
+    .contact-description {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      p, a {
+        font-size: 24px;
+        color: black	;
+        margin-left: 10px;
+      }
+
+    }
+
+    .email_section {
+      width: 45%;
+      margin-left: 10%;
+    }
+
+    .phone_section {
+      width: 45%;
+    }
+
+    .git_section {
+      margin-top: 20px;
+      margin-left: 20%;
+
+      img {
+        width: 75px;
+        height: 75px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+    }
+  }
+}
+  .CV_image{
+    .image_container{
+      width: 720px;
+      height: 720px;
+      border:  10px outset #FFD700;
+      border-radius: 100% ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      -webkit-box-shadow: 31px 30px 50px -2px rgba(122,108,40,0.56);
+      -moz-box-shadow: 31px 30px 50px -2px rgba(122,108,40,0.56);
+      box-shadow: 31px 30px 50px -2px rgba(122,108,40,0.56);
+      margin-bottom: 100px;
+      .cv_your_image{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 620px;
+        height: 620px;
+        border-radius: 100%;
+      }
+    }
+  }
+  .Your_description{
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+      font-family: $mainFont;
+      margin-top: 0;
+      width: 620px;
+      font-size: 120px;
+      text-align: center;
+      text-shadow: 10px 7px 12px rgba(122, 108, 40, 0.1);
+      background-image: linear-gradient(to right bottom, #ffd700, #dbbb19, #b9a022, #998627, #7a6c28);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 160px;
+    }
+    h3{
+      font-size: 30px;
+    }
+  }
+  .hobbies{
+  width: 620px;
+  display: flex;
+    flex-wrap: wrap;
+    div{
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      p{
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+     }
+}

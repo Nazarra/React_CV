@@ -1,0 +1,15 @@
+
+.cv_container{
+  width: 1860px;
+  height: 2160px;
+  border: 1px solid black;
+  display: flex;
+  background-image: linear-gradient(to left top, #dcdcdc, #cecece, #c1c1c1, #b4b3b3, #a7a6a6, #aaa9a9, #acabac, #afaeaf, #c2c2c3, #d6d6d6, #eaeaeb, #ffffff);
+   .cv_content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    //border: 1px red solid;
+    width: 620px;
+  }
+}
