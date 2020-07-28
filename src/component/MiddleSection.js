@@ -1,6 +1,6 @@
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import GithubIcon from "../asset/github-square-brands.svg"
+
 
 
 const MiddleSection = (props) =>{
@@ -21,18 +21,20 @@ const MiddleSection = (props) =>{
                                 <p>{props.phone}</p>
                             </div>
                             <div className={"git_section contact-description"}>
-                                <img className={"git_section_image"} src={GithubIcon} alt={"github Icon"} />
+                                <FontAwesomeIcon icon={['fab','github-square']} size={"4x"} />
                                 <a href={props.github}>{props.github}</a>
                             </div>
                         </div>
                     </article>
 
                 <article className={"CV_image"}>
+                    <div className={'decor'}>
                     <div className={"image_container"}>
+
                         <div>
                             <img className={"cv_your_image"} src={props.YourImage} alt={"Twoje zdjęcie"} />
                         </div>
-
+                    </div>
                     </div>
                 </article>
 
@@ -41,28 +43,28 @@ const MiddleSection = (props) =>{
                     <h3>Zainteresowania</h3>
                     <div className={"hobbies"}>
                         <div>
-                            <FontAwesomeIcon icon='gamepad' size={"3x"} />
-                            <p>Gry komputerowe</p>
+                            <FontAwesomeIcon icon={props.hobby1_icon} size={"3x"} />
+                            <p>{props.hobby1_description}</p>
                         </div>
                         <div>
-                            <FontAwesomeIcon icon='book' size={"3x"} />
-                            <p>Czytanie książek</p>
+                            <FontAwesomeIcon icon={props.hobby2_icon} size={"3x"} />
+                            <p>{props.hobby2_description}</p>
                         </div>
                         <div>
-                            <FontAwesomeIcon icon='bullseye' size={"3x"} />
-                            <p>Strzelectwo rekreacyjne</p>
+                            <FontAwesomeIcon icon={props.hobby3_icon} size={"3x"} />
+                            <p>{props.hobby3_description}</p>
                         </div>
                         <div>
-                            <FontAwesomeIcon icon='swimming-pool' size={"3x"} />
-                            <p>Pływanie</p>
+                            <FontAwesomeIcon icon={props.hobby4_icon} size={"3x"} />
+                            <p>{props.hobby4_description}</p>
                         </div>
                         <div>
-                            <FontAwesomeIcon icon='film' size={"3x"} />
-                            <p>Oglądanie filmów</p>
+                            <FontAwesomeIcon icon={props.hobby5_icon} size={"3x"} />
+                            <p>{props.hobby5_description}</p>
                         </div>
                         <div>
-                            <FontAwesomeIcon icon='music' size={"3x"} />
-                            <p>Słuchanie muzyki</p>
+                            <FontAwesomeIcon icon={props.hobby6_icon} size={"3x"} />
+                            <p>{props.hobby6_description}</p>
                         </div>
                     </div>
                 </article>

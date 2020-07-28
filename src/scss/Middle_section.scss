@@ -12,7 +12,8 @@
   margin-bottom: 140px;
   h2 {
     margin-top: 50px;
-    font-size: 60px;
+    font-size: 70px;
+    font-weight: 400;
     align-self: center;
     font-family: $mainFont;
   }
@@ -67,7 +68,7 @@
     .image_container{
       width: 720px;
       height: 720px;
-      border:  10px outset #FFD700;
+      border:  25px outset #FFD700;
       border-radius: 100% ;
       display: flex;
       justify-content: center;
@@ -76,7 +77,11 @@
       -moz-box-shadow: 31px 30px 50px -2px rgba(122,108,40,0.56);
       box-shadow: 31px 30px 50px -2px rgba(122,108,40,0.56);
       margin-bottom: 100px;
+      background: conic-gradient(#5cabff, #ED1B07, #98E59B, #5cabff);
+
+
       .cv_your_image{
+
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
