@@ -5,67 +5,70 @@
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-.contact_header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 140px;
-  h2 {
-    margin-top: 50px;
-    font-size: 70px;
-    font-weight: 400;
-    align-self: center;
-    font-family: $mainFont;
-  }
-
-  .contact_content {
+  .contact_header {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 620px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 140px;
+    h2 {
+      margin-top: 50px;
+      font-size: 70px;
+      font-weight: 400;
+      align-self: center;
+      font-family: $mainFont;
+    }
 
-    box-sizing: border-box;
-
-    .contact-description {
+    .contact_content {
       display: flex;
-      align-items: center;
-      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 620px;
 
-      p, a {
-        font-size: 24px;
-        color: black	;
-        margin-left: 10px;
+      box-sizing: border-box;
+
+      .contact-description {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p, a {
+          font-size: 24px;
+          color: black	;
+          margin-left: 10px;
+        }
+
       }
 
-    }
-
-    .email_section {
-      width: 45%;
-      margin-left: 10%;
-    }
-
-    .phone_section {
-      width: 45%;
-    }
-
-    .git_section {
-      margin-top: 20px;
-      margin-left: 20%;
-
-      img {
-        width: 75px;
-        height: 75px;
+      .email_section {
+        width: 45%;
+        margin-left: 10%;
       }
 
-      a {
-        text-decoration: none;
+      .phone_section {
+        width: 45%;
       }
 
+      .git_section {
+        margin-top: 20px;
+        margin-left: 20%;
+
+        img {
+          width: 75px;
+          height: 75px;
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+      }
     }
   }
-}
   .CV_image{
+    top: 396px;
+    position: absolute;
     .image_container{
+
       width: 720px;
       height: 720px;
       border:  25px outset #FFD700;
@@ -92,6 +95,7 @@
     }
   }
   .Your_description{
+    margin-top: 810px;
     width: 620px;
     display: flex;
     flex-direction: column;
@@ -113,8 +117,8 @@
     }
   }
   .hobbies{
-  width: 620px;
-  display: flex;
+    width: 620px;
+    display: flex;
     flex-wrap: wrap;
     div{
       width: 33%;
@@ -126,5 +130,5 @@
         text-align: center;
       }
     }
-     }
+  }
 }
