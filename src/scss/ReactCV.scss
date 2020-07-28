@@ -1,15 +1,27 @@
+.cv_background_container{
+  width: 116.25rem;
+  height: 152rem;
+  background-image: url("../asset/25101.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.rodo{
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 100px;
+  font-size: 22px;
+}
 
 .cv_container{
   width: 1860px;
   height: 2160px;
-  border: 1px solid black;
   display: flex;
   background-image: url("../asset/background.png");
   background-position: 49% 76%;
   background-size: 93% 111%;
-
   background-repeat: no-repeat;
-  //background-image: linear-gradient(to left top, #dcdcdc, #cecece, #c1c1c1, #b4b3b3, #a7a6a6, #aaa9a9, #acabac, #afaeaf, #c2c2c3, #d6d6d6, #eaeaeb, #ffffff);
   .cv_content{
     display: flex;
     flex-direction: column;
