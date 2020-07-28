@@ -17,50 +17,39 @@
       align-self: center;
       font-family: $mainFont;
     }
-
     .contact_content {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       width: 620px;
-
       box-sizing: border-box;
-
       .contact-description {
         display: flex;
         align-items: center;
         justify-content: center;
-
         p, a {
           font-size: 24px;
           color: black	;
           margin-left: 10px;
         }
-
       }
-
       .email_section {
         width: 45%;
         margin-left: 10%;
       }
-
       .phone_section {
         width: 45%;
       }
-
       .git_section {
         margin-top: 20px;
         margin-left: 20%;
-
         img {
           width: 75px;
           height: 75px;
         }
-
         a {
           text-decoration: none;
         }
-
       }
     }
   }
@@ -68,7 +57,6 @@
     top: 396px;
     position: absolute;
     .image_container{
-
       width: 720px;
       height: 720px;
       border:  25px outset #FFD700;
@@ -81,10 +69,7 @@
       box-shadow: 31px 30px 50px -2px rgba(122,108,40,0.56);
       margin-bottom: 100px;
       background: conic-gradient(#5cabff, #ED1B07, #98E59B, #5cabff);
-
-
       .cv_your_image{
-
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -108,11 +93,6 @@
       font-weight: 400;
       text-align: center;
       text-shadow: 7px 7px 1px rgba(150, 150, 150, 0.63);
-      //border-left: none;
-      //border-top: none;
-      //background-image: linear-gradient(to right bottom, #ffd700, #dbbb19, #b9a022, #998627, #7a6c28);
-      //-webkit-background-clip: text;
-      //-webkit-text-fill-color: transparent;
       margin-bottom: 160px;
     }
     h3{

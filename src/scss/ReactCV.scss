@@ -6,14 +6,6 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.rodo{
-  width: 80%;
-  text-align: center;
-  margin-left: 10%;
-  margin-top: 100px;
-  font-size: 22px;
-}
-
 .cv_container{
   width: 1860px;
   height: 2160px;
@@ -28,4 +20,11 @@
     flex-grow: 1;
     width: 620px;
   }
+}
+.rodo{
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 100px;
+  font-size: 22px;
 }
